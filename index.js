@@ -1,6 +1,11 @@
 // Adapted from guidance for Azure Web environment:
 // https://azureossd.github.io/2022/03/10/NodeJS-with-Keep-Alives-and-Connection-Reuse/index.html#httpagent-or-httpsagent-native-node-module
 
+// NOTES:
+// - keepAlive will be enabled in Node 19 by default
+// - in the Azure environment the number of available outbound connections
+//   can vary, but its only safe to assume 128 total
+
 const http = require('http');
 const https = require('https');
 
