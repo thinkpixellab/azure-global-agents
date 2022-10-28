@@ -1,0 +1,19 @@
+{
+  "name": "@thinkpixellab-public/azure-global-agents",
+  "version": "1.0.0",
+  "description": "Replaces Node.js global http and https agents for Azure environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkpixellab/azure-global-agents.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thinkpixellab/azure-global-agents/issues"
+  },
+  "homepage": "https://github.com/thinkpixellab/azure-global-agents#readme"
+}
